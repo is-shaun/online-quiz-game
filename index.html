@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Quiz Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="scoreboard">
+      <p>Correct: <span id="correct-score" class="correct">0</span></p>
+      <p>Incorrect: <span id="incorrect-score" class="incorrect">0</span></p>
+    </div>
+    <div id="quiz-container">
+      <div id="loading-indicator" class="hide"></div>
+      <div id="question-container"></div>
+      <div id="answer-buttons" class="btn-container"></div>
+      <button id="next-btn" class="hide">Next</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
